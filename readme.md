@@ -1,1 +1,1 @@
-# Clon de dashboard NeonTheme con TailWindCss, solo CSS no JS
+# Dashboard con TailWindCss, sin extra css y js

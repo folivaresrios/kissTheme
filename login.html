@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <div class="flex flex-col items-center h-full">
+        <div id="login" class="flex sm:flex-col md:flex-row md:pt-8 sm:pt-2">
+            <div id="description" class="flex flex-col bg-orange-darker text-white px-8 py-8">
+                <div id="logo" class="flex items-center p-2">
+                    <img src="https://pbs.twimg.com/profile_images/895274026783866881/E1G1nNb0.jpg" alt="logo" class="rounded-full w-10 h-10 mr-4">
+                    <span class="font-bold text-2xl text-white">kissTheme</span>
+                </div>
+                <span id="text" class="text-lg">Simple. Flexible. Powerful.</span>
+                <ul class="flex flex-col list-reset ml-4 mt-4 sm:hidden md:block">
+                    <li class="block px-2 py-2">
+                        <i class="fa fa-font-awesome" aria-hidden="true"></i>
+                        <span class="ml-4">Modular</span>
+                    </li>
+                    <li class="block px-2 py-2">
+                        <i class="fa fa-th" aria-hidden="true"></i>
+                        <span class="ml-4">Flexbox</span>
+                    </li>
+                    <li class="block px-2 py-2">
+                        <i class="fa fa-address-card" aria-hidden="true"></i>
+                        <span class="ml-4">Address</span>
+                    </li>
+                    <li class="block px-2 py-2">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                        <span class="ml-4">Maked with love</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="form" class="flex items-center flex-col bg-white px-8 py-4 border border-grey">
+                <span class="text-xl font-bold pb-4 pt-8">Sign In to your Account</span>
+                <form action="#" method="post" class="mb-4">
+                    <div class="relative my-2 border">
+                        <input type="text" name="username" id="username" placeholder="Username or Email" class="appearence-none border-0 p-3 ml-8">
+                        <span class="absolute pin-l mt-3 border-r px-3 text-grey-darker">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="relative my-4 border">
+                        <input type="password" name="password" id="password" placeholder="Password" class="border-0 p-3 ml-8">
+                        <span class="absolute pin-l mt-3 border-r px-3 text-grey-darker">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="flex justify-between  text-grey-darkest">
+                        <div id="remember">
+                            <input type="checkbox" name="remember" id="rem">
+                            <span class="text-xs">Remember me</span>
+                        </div>
+                        <div id="forgot">
+                            <a href="#" class="no-underline text-grey-darkest text-xs">Forgot your password?</a>
+                        </div>
+                    </div>
+                    <div id="button" class="flex justify-center mt-8">
+                        <input type="submit" value="Sign In" class="bg-orange-darker text-white px-8 py-3 w-64 hover:text-orange">
+                    </div>
+                </form>
+                <div class="border-t border-grey">
+                    <div id="facebook" class="flex justify-center mt-4">
+                        <input type="submit" value="Facebook" class="bg-blue-darker text-white px-8 py-1 w-64 hover:text-orange">
+                    </div>
+                    <div id="twitter" class="flex justify-center mt-4">
+                        <input type="submit" value="Twitter" class="bg-blue-light text-white px-8 py-1 w-64 hover:text-orange">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="font-bold text-xs p-2">
+            <span>Not a member?</span>
+            <a href="#" class="text-black">Sign Up Now</a>
+        </div>
+    </div>
+</body>
+
+</html>
